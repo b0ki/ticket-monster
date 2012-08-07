@@ -62,6 +62,7 @@ public class Venue implements Serializable {
     @Column(unique = true)
     @NotEmpty
     private String name;
+    private String nickname;
 
     /**
      * The address of the venue
